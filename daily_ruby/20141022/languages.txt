@@ -1,0 +1,11 @@
+2014年プログラミング言語人気TOP10
+ 1. C
+ 2. Java
+ 3. Objective-C
+ 4. C++
+ 5. C#
+ 6. Basic
+ 7. PHP
+ 8. Python
+ 9. Perl
+10. Transact-SQL
