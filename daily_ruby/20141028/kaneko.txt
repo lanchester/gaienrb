@@ -3,3 +3,7 @@ hogehoge
 foo
 bar
 baz
+foo
+foobar
+foobarbaz
+dj

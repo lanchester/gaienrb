@@ -2,7 +2,7 @@
 
 FILENAME = "#{__FILE__.split('.')[0]}.txt"
 
-if ARGV.length < 1
+if ARGV.empty?
   File.open(FILENAME,'r') do |file|
     file.each do |line|
       puts line
