@@ -16,7 +16,9 @@ ruby saikoro.rb 3
 =end
 
 n = ARGV[0].to_i 
-if  n<= 5
+if ARGV.empty? == true
+	puts "ArgumentError"
+elsif  n<= 5
 	n.times do	
 		print "[#{rand(1..6)}] "
 	end
