@@ -5,14 +5,18 @@
 コマンドライン引数から渡されたものが２つ以上あったり、２つ以下だった場合はArgumentErrorの例外を発生させてください
 =end
 
-def num_plus(a,b)
-	a + b
+def num_plus(int1 = ARGV[0].to_i, int2 = ARGV[1].to_i)
+	puts int1 + int2
 end
 
-if ARGV.size == 2
-	a = ARGV[0].to_i
-	b = ARGV[1].to_i
-	puts (a + b)
-else
-	puts "ArgumentError"
+num_plus
+
+=begin
+
+  begin
+    num_plus
+  rescue ArgumentError => e
+  	puts e     
+  end
 end
+=end
