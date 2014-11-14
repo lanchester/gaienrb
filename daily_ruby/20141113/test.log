@@ -1,0 +1,6 @@
+Started POST "/clients/sign_in" for 192.168.0.7 at 2012-10-03 01:55:09 +0900
+Rendered /middleware/templates/rescues/_trace.erb (9.5ms)
+ERROR: 500 Internal Server Error in 2333ms
+Started GET "/assets/login_btn_off.png" for 192.168.0.7 at 2012-10-03 01:54:57 +0900
+ERROR: ActiveRecord::StatementInvalid (PG::Error: ERROR:  null value in column "latitude" violates not-null constraint
+Rendered /middleware/templates/rescues/diagnostics.erb within rescues/layout (29.2ms)
